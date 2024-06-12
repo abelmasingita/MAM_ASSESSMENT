@@ -22,7 +22,7 @@
 
     private static decimal RoundUpToNearest0Point05(decimal value)
     {
-        return Math.Ceiling(value * 20) / 20;
+        return Math.Ceiling(value * 100) / 100;
     }
 
     public static Receipt GenerateReceipt(List<Product> products)
